@@ -1,0 +1,107 @@
+
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+body {
+color: #C7CEDB;
+background-color: #414040;
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+line-height: 20px;
+
+}
+p {
+  padding: 20px 20px;
+}
+
+h1, h2 {
+  color: #808080;
+  font-size: light;
+  line-height: 30px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+
+}
+
+a {
+  color: #A0AAB2;
+  text-decoration: none;
+}
+
+a, body {
+  color: #020202;
+  list-style: none;
+}
+
+a:hover {
+  color: #B8C4BB;
+  animation: bounce 1s;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+.header {
+  background: white;
+  border-radius: 10px;
+  padding: 32px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 50px;
+}
+.footer {
+  background: white;
+  border-radius: 10px;
+  padding: 32px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 50px;
+}
+.card {
+/*  display: inline-block;
+*/background: white;
+  border-radius: 10px;
+  padding: 32px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 50px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 32px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-header {
+  border-radius: 10%;
+  width: 150px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
+}
